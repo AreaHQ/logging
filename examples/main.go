@@ -1,20 +1,3 @@
-# Logging
-
-A simple leveled logging library with coloured output.
-
-Log levels:
-* `INFO` (blue)
-* `WARNING` (pink)
-* `ERROR` (red)
-* `FATAL` (red)
-
-Formatters:
-* `DefaultFormatter`
-* `ColouredFormatter`
-
-Example usage:
-
-```go
 package main
 
 import (
@@ -54,4 +37,3 @@ func main() {
 	colouredLogger.Fatal("log message")
 	colouredLogger.Fatalf("formatter %s %s", "log", "message")
 }
-```
