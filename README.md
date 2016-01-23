@@ -1,3 +1,5 @@
+[![Codeship Status for AreaHQ/logging](https://codeship.com/projects/a2b1c4c0-a3a2-0133-00d6-3641d785a31d/status?branch=master)](https://codeship.com/projects/129304)
+
 # Logging
 
 A simple leveled logging library with coloured output.
